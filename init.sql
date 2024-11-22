@@ -24,7 +24,6 @@ CREATE TABLE `app_collection_item` (
 
 INSERT INTO cz_app_center.app_collection (id, code, channel, area_language_code, name) VALUES (19629, 'test', 'test', 'test', 'test');
 
-INSERT INTO cz_app_center.app_collection_item (id, app_collection_id, source, name, package_name, delete_millis) VALUES (3225, 19629, 'insert', 'insert-name2', 'insert', 0);
 INSERT INTO cz_app_center.app_collection_item (id, app_collection_id, source, name, package_name, delete_millis) VALUES (3224, 19629, 'update', 'update-name2', 'update', 0);
 
 # select id, app_collection_id, source, name, package_name, delete_millis from app_collection_item where app_collection_id = 19629;
