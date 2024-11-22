@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/cz_app_center?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowMultiQueries=true&rewriteBatchedStatements=true
+    username: asdada
+    password: asdadadasd
+
+jimmer:
+  dialect: org.babyfish.jimmer.sql.dialect.MySqlDialect
+  show-sql: true
+  pretty-sql: true
+  is-foreign-key-enabled-by-default: false
